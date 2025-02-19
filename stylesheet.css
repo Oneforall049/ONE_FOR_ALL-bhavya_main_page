@@ -173,6 +173,91 @@ img{
     letter-spacing: 1px;
     white-space: nowrap;
 } 
+
+/* this code is for star chart */
+
+.star-chart-container{
+    position: absolute;
+    top: 170px;
+    width: 94vw;
+    left: 35px;
+    height: 180vh;
+    border-radius: 30px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+h1.astro-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    margin-top:-15px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.ast-p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: azure;
+    position: fixed;
+    margin-top: -15px;
+    margin-left: -55px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.f-image{
+    position: absolute;
+    top: 0px;
+    width:110vw;
+    height: 80vh;
+    left: -50px;
+    border-radius: 30px;
+    object-fit: fill;
+    object-position: top;
+    display: block;
+}
+.small-image {
+    position: absolute;
+    top: 680px;
+    left:220px;
+    width: 1000px;
+    height: 607px;
+    object-position: center;
+    border-radius: 40px;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.small-image:hover {
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+
 .footer {
     background-color: #222;
     color: #fff;
