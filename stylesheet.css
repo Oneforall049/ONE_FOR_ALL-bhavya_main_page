@@ -6,6 +6,8 @@ body{
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
+    height: auto;
+    width: 1536px;
 }
 
 .header1{
