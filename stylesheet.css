@@ -256,7 +256,8 @@ img{
 .starchart-img{
     position: absolute;
     top: 1500px;
-    width: 94vw;
+    height: 800px;
+    width: 1200px;
     left: 35px;
     height: 180vh;
     border-radius: 30px;
@@ -277,7 +278,7 @@ img{
     border: 2px solid gold;
     cursor: pointer;
 }
-.small-image:hover {
+.starchart-img small-image:hover {
     background-color: #ff914d;
     transform: scale(1.1);
 }
