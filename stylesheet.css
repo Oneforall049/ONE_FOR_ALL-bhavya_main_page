@@ -267,7 +267,7 @@ img{
     display: flex;
     box-sizing: border-box;
 }
-.starchart-img small-image {
+.starchart-img img {
     position: absolute;
     top: 680px;
     left:220px;
@@ -278,7 +278,7 @@ img{
     border: 2px solid gold;
     cursor: pointer;
 }
-.starchart-img small-image:hover {
+.starchart-img img:hover {
     background-color: #ff914d;
     transform: scale(1.1);
 }
