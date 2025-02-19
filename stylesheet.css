@@ -240,7 +240,20 @@ img{
     object-position: top;
     display: block;
 }
-.small-image {
+.starchart-img{
+    position: absolute;
+    top: 1500px;
+    width: 94vw;
+    left: 35px;
+    height: 180vh;
+    border-radius: 30px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.starchart-img small-image {
     position: absolute;
     top: 680px;
     left:220px;
