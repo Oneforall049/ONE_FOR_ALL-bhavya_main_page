@@ -68,39 +68,42 @@ nav ul li a:hover{
 .header2 ul li{
     margin: 0px 15px;
 }
-.design-button{                                     
+.design-button{                              
     font-size: 20px;
     padding: 10px 15px;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     border:none;
-    border-radius: 10cap;
+    border-radius: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 50;
+    font-weight: normal;
     text-transform: uppercase;
+    margin: 0px 10px 0px 0px;
 }
 .design-button:hover{
-    background-color:#ff914d;
+    background-color: #ff914d;
     transform:scale(1.1);
 }
 .dn-button{
     font-size: 20px;
     padding: 10px 15px;
     background-color:white;
-    color:black;
+    color: black;
     border:none;
-    border-radius: 30cap;
+    border-radius: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 50;
+    font-weight: normal;
+    width: 220px;
     text-transform: uppercase;
+    margin: 0px 340px 0px 70px;
 }
 .dn-button:hover{
-    background-color:red;
+    background-color: red;
     transform:scale(1.1);
 } 
-.wel-banner{
+video{
     position: relative;
     top: 20px;
     left: -10px;
@@ -112,25 +115,13 @@ nav ul li a:hover{
     margin:0 auto;
     margin-top: 140px;
     display: block;
-}
-.wel-banner video{
-    position: relative;
-    top: 20px;
-    left: -10px;
-    margin: 0;
-    border:white;
-    width:100vw;
-    height: 100vh;
-    object-fit: cover;
-    margin:0 auto;
-    margin-top: 140px;
-    display: block;
+    z-index: 1;
 }
 .image-container{
     position: relative;
-    top:40px;
-    width: 98vw;
-    left: 7px;
+    top: 40px;
+    width: 97vw;
+    left: 15px;
     height: 90vh;
     border-radius: 50px;
     border:4px double white;
@@ -170,9 +161,9 @@ img{
     margin-top: -60px;
     padding: 0px 15px 300px 10px;
     white-space: nowrap;
+    z-index: 2;   
 }
 .ast-p{
-   
     position: absolute;
     top:70px;
     font-family: 'Times New Roman', Times, serif;
@@ -187,14 +178,14 @@ img{
     white-space: nowrap;
 } 
 
-/* this code is for star chart */
+/* star-chart */
 
 .star-chart-container{
     position: absolute;
-    top: 1500px;
-    width: 94vw;
-    left: 35px;
-    height: 180vh;
+    top: 1680px;
+    width: 97vw;
+    left: 15px;
+    height: 200vh;
     border-radius: 30px;
     border: 4px double white;
     overflow: hidden;
@@ -202,45 +193,31 @@ img{
     display: flex;
     box-sizing: border-box;
 }
-.overlay {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: whitesmoke;
+h1.star-head{
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    padding: 20px;
-    line-height: 1.9;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 60px;
-    white-space: nowrap;
-}
-.astro-head h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 400;
     font-style: normal;
     text-decoration: underline;
     text-align: center;
     text-transform: uppercase;
     width: auto;
-    margin-top:-15px;
+    margin-top: -680px;
     white-space: nowrap;
+    margin-right: -300px;
 }
-.ast-p{
+.star-p{
     font-family:'Times New Roman', Times, serif;
     font-size: 26px;
     color: azure;
     position: fixed;
-    margin-top: -15px;
-    margin-left: -55px;
+    margin-top: -5px;
+    margin-left: -220px;
     line-height: 1.9;
     word-spacing: 2px;
     letter-spacing: 1px;
     text-align: center;
+    white-space: nowrap;
 }
 .f-image{
     position: absolute;
@@ -253,35 +230,26 @@ img{
     object-position: top;
     display: block;
 }
-.starchart-img{
+.starchart-image{
     position: absolute;
-    top: 1500px;
-    height: 800px;
-    width: 1200px;
-    left: 35px;
-    height: 180vh;
-    border-radius: 30px;
-    border: 4px double white;
-    overflow: hidden;
-    background-color: black;
     display: flex;
-    box-sizing: border-box;
-}
-.starchart-img img {
-    position: absolute;
-    top: 680px;
-    left:220px;
+    top: -50px;
+    left: -380px;
     width: 1000px;
-    height: 607px;
+    height: 800px;
     object-position: center;
     border-radius: 40px;
     border: 2px solid gold;
+    box-sizing: border-box;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
-.starchart-img img:hover {
+.starchart-image:hover {
     background-color: #ff914d;
     transform: scale(1.1);
 }
+
+/* footer */
 
 .footer {
     background-color: #222;
@@ -291,7 +259,7 @@ img{
     width: 100%;
     position: relative;
     bottom: 0;
-    top: 600px
+    top: 2000px
 }
 .footer-content p {
     margin: 5px 0;
