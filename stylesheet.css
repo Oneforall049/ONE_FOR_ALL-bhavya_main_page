@@ -79,7 +79,7 @@ nav ul li a:hover{
     transition: all 0.3s ease;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 2px 20px;
+    margin: 2px 40px;
 }
 .design-button:hover{
     background-color: #ff914d;
@@ -97,7 +97,7 @@ nav ul li a:hover{
     font-weight: normal;
     width: 220px;
     text-transform: uppercase;
-    margin: 2px 20px 2px 100px;
+    margin: 2px 25px 2px 100px;
 }
 .dn-button:hover{
     background-color: red;
